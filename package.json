@@ -37,7 +37,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "mocha -r ts-node/register src/**/*.spec.ts"
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "prepublish": "npm run test && npm run build"
   },
   "files": ["./dist/**.*"]
 }
