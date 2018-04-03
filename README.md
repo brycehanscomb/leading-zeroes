@@ -30,7 +30,6 @@ The input to which leading zeroes should be added.
 
 ### `targetLength`
 
-|----------|----------|
 | Type     | Required |
 |----------|----------|
 | `number` | Yes      |
