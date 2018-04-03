@@ -23,17 +23,14 @@ padWithLeadingZeroes('7 is James Bond', 15);
 | Type                 | Required |
 |----------------------|----------|
 | `number` or `string` | Yes      |
-|----------------------|----------|
 
 The input to which leading zeroes should be added.
-
 
 ### `targetLength`
 
 | Type     | Required |
 |----------|----------|
 | `number` | Yes      |
-|----------|----------|
 
 The length of the resulting string once the current string has been padded. If 
 the value is lower than the current string's length, the current string will be 
