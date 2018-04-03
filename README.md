@@ -13,14 +13,13 @@ padWithLeadingZeroes(555,8);
 // => "00000555"
 
 padWithLeadingZeroes('7 is James Bond', 15);
-// => "007 is James Bond
+// => "007 is James Bond"
 ```
 
 ## Parameters
 
 ### `num`
 
-|----------------------|----------|
 | Type                 | Required |
 |----------------------|----------|
 | `number` or `string` | Yes      |
